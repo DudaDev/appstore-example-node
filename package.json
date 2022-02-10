@@ -12,6 +12,7 @@
   "repository": "---repo---",
   "author": "Everett Morgan",
   "scripts": {
+    "serve": "yarn tsc && node ./dist/index.js",
     "tsc": "./node_modules/typescript/bin/tsc",
     "test": "yarn linter && yarn tests",
     "linter": "yarn run eslint --ext .ts src/",
