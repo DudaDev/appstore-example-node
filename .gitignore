@@ -1,3 +1,8 @@
+.DS_Store
+.idea/
+auth.db.json
+installs.db.json
+
 # Logs
 logs
 *.log
